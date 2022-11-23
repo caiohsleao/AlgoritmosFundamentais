@@ -7,6 +7,7 @@ Para os algoritmos em JS:
 1. Execute individualmente cada arquivo .html e preencha os campos de comando solicitados. Os resultados estarão no prompt ou no console.
 
 Para os algoritmos em Java:
-1. Preferencialmente, utilize a IDE InteliJ.
-2. Abra o arquivo principal. A execução se dará sempre por essa classe. Para selecionar qual algoritmo será executado, deixe como comentário (//) os demaais
-algoritmos e deixe sem as // apenas o algoritmo que dexeja executar. Clique no botão executar. 
+1. Baixe a IDE InteliJ.
+2. Crie um novo projeto.
+3. Copie os arquivos que estão na pasta Src que você baixou para a pasta src do projeto que você acabou de criar.
+4. Na classe Principal, seleciona qual Algoritmo deseja executar. Deixe sem estar comentado (sem as //) apenas o algoritmo que deseja executar.
