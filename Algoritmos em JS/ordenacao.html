@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function quickSort(Array){
+        if(Array.length <= 1){
+            return Array;
+        }
+
+        let pivot = Array[Array.length - 1];
+        let leftArray = [];
+        let rightArray = [];
+
+        for(let i=0; i < Array.length-1;i++){
+            Array[i] < pivot ? leftArray.push(Array[i]) :  rightArray.push(Array[i])
+        }
+
+            return [...quickSort(leftArray) ,pivot,...quickSort(rightArray)];
+
+        }
+
+            let numbers = [1,5,2,99,81,100,144,121,91,85,74,10];
+
+        console.log(quickSort(numbers));
+
+
+
+    </script>
+</body>
+</html>

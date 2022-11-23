@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+            
+    function calculateMDC (a, b) {
+
+    var rest;
+
+        do {
+
+            rest = a % b;
+
+            a = b;    
+
+            b = rest;
+
+        } while (rest != 0);
+
+        return a;
+
+    }
+
+var result = calculateMDC(6, 15);
+
+console.log(result);
+
+    </script>
+    
+</body>
+</html>
